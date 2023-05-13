@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+@font-face {
+   
+    src: url("Reality Hyper Regular.ttf");
+    font-family: Reality Hyper Regular;
+}
+
+h1{
+    font-family:Reality Hyper Regular;
+    color: orange;
+    text-shadow: black 2px 2px ;
+    font-size: 50px;
+    transform: rotate(-6deg);
+}
+
+
+.title{
+    margin-top: 80px;
+   
+
+}
+button{
+    background-color: orange;
+    font-size: 25px;
+    color: white;
+    font-family:Reality Hyper Regular;
+    border: none;
+    border-radius: 8px;
+    padding:8px 15px;
+}
+button:active {
+    transform: scale(0.99);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+#El-container{
+    width: 500px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 80px;
+    font-family:Reality Hyper Regular;
+}
